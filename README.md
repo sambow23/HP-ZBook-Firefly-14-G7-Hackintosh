@@ -20,29 +20,32 @@ Specs:
 - Wi-Fi (itlwm)
 - All USB ports
 - USB-C Video
-- HDMI Out
 - Touchscreen (with gestures)
 - Trackpad
 - FN Keys
 - Webcam
 - Screen Brightness
-- Internal Speakers
+- Internal Audio (Speakers, Headphones)
 - Battery percentage
+- Thunderbolt
+  * Tested with a CalDigit TS3 Plus, hotplug is working to some extent
+    * PCIe Ethernet sometimes causes kernel panics
+    * The DisplayPort out has major performance issues (cursor updates at about 11fps)
 
 
 #### Untested
-- AUX Jack
 - iCloud Services
 - Bluetooth (no kext installed yet)
 
 #### Not working
 - Sleep (will never work, no S3 support)
-- Thunderbolt
 - Facial Recognition IR Camera
 - Fingerprint Sensor
 - NFC
 - Smartcard
 - Internal Microphone
+- HDMI Out
+  * Unsure why, the USB-C video outs work fine
 
 ## Tested/Working macOS Versions
 - macOS Big Sur
