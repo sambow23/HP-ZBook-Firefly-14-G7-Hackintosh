@@ -25,6 +25,10 @@ Specs:
 - Trackpad
 - FN Keys
 - Webcam
+- Screen Brightness
+- Internal Speakers
+- Battery percentage
+
 
 #### Untested
 - AUX Jack
@@ -38,6 +42,8 @@ Specs:
 - Fingerprint Sensor
 - NFC
 - Smartcard
+- Internal Microphone
 
 ## Tested/Working macOS Versions
 - macOS Big Sur
+- macOS Sonoma
