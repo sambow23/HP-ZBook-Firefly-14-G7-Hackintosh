@@ -36,7 +36,7 @@ Specs:
 - Bluetooth (no kext installed yet)
 
 #### Not working
-- Sleep
+- Sleep (will never work, no S3 support)
 - Thunderbolt
 - Facial Recognition IR Camera
 - Fingerprint Sensor
