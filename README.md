@@ -20,7 +20,6 @@ Specs:
 - Wi-Fi (itlwm)
 - All USB ports
 - USB-C Video
-- HDMI Out
 - Touchscreen (with gestures)
 - Trackpad
 - FN Keys
@@ -45,6 +44,8 @@ Specs:
 - NFC
 - Smartcard
 - Internal Microphone
+- HDMI Out
+  * Unsure why, the USB-C video outs work fine
 
 ## Tested/Working macOS Versions
 - macOS Big Sur
