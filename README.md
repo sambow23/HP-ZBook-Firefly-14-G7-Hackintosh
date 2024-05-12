@@ -26,18 +26,20 @@ Specs:
 - FN Keys
 - Webcam
 - Screen Brightness
-- Internal Speakers
+- Internal Audio (Speakers, Headphones)
 - Battery percentage
+- Thunderbolt
+  * Tested with a CalDigit TS3 Plus, hotplug is working to some extent
+    * PCIe Ethernet doesn't seem to grab a link
+    * The DisplayPort out has major performance issues (cursor updates at about 11fps)
 
 
 #### Untested
-- AUX Jack
 - iCloud Services
 - Bluetooth (no kext installed yet)
 
 #### Not working
 - Sleep (will never work, no S3 support)
-- Thunderbolt
 - Facial Recognition IR Camera
 - Fingerprint Sensor
 - NFC
