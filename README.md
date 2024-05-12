@@ -31,7 +31,7 @@ Specs:
   * Tested with a CalDigit TS3 Plus, hotplug is working to some extent
     * PCIe Ethernet sometimes causes kernel panics
     * The DisplayPort out has major performance issues (cursor updates at about 11fps)
-- Closing and Opening the Screen Lid
+- Closing and Waking the Internal Display
 
 
 #### Untested
