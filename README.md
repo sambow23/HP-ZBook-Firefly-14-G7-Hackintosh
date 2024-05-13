@@ -40,6 +40,7 @@ Specs:
 
 #### Not working
 - Sleep (will never work, no S3 support)
+  * Disable Sleep with `sudo pmset -a disablesleep 1` otherwise the system will freeze when closing the lid
 - Facial Recognition IR Camera
 - Fingerprint Sensor
 - NFC
