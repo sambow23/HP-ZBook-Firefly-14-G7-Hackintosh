@@ -31,6 +31,7 @@ Specs:
   * Tested with a CalDigit TS3 Plus, hotplug is working to some extent
     * PCIe Ethernet sometimes causes kernel panics
     * The DisplayPort out has major performance issues (cursor updates at about 11fps)
+- Closing and Waking the Internal Display
 
 
 #### Untested
@@ -39,6 +40,7 @@ Specs:
 
 #### Not working
 - Sleep (will never work, no S3 support)
+  * Disable Sleep with `sudo pmset -a disablesleep 1` otherwise the system will freeze when closing the lid
 - Facial Recognition IR Camera
 - Fingerprint Sensor
 - NFC
