@@ -6,6 +6,7 @@ Specs:
 - **CPU** : Intel® Core™ i7-10610U @ 4.90 GHz
 - **RAM** : 16GB dual-channel 2667MHz DDR4
 - **GPU** : Intel UHD Graphics 630
+- **dGPU** : NVIDIA Quadro P520 Max-Q 4GB
 - **Storage** : ADATA SX8100NP 512GB NVME SSD
 - **Screen** : 14" 1920x1080 Touchscreen
 - **WiFi** : Intel® Wi-Fi 6 AX201
@@ -48,6 +49,7 @@ Specs:
 - Internal Microphone
 - HDMI Out
   * Unsure why, the USB-C video outs work fine
+- dGPU (disabled)
 
 ## Tested/Working macOS Versions
 - macOS Big Sur
