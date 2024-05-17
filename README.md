@@ -1,4 +1,4 @@
-# HP ZBook Firefly 14 G7 (WIP)
+# HP ZBook Firefly 14 G7
 <img src="https://i.imgur.com/c63OLOQ.png" width="500">
 
 Specs:
