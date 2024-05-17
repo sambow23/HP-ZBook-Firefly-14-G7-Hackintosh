@@ -29,9 +29,9 @@ Specs:
 - Internal Audio (Speakers, Headphones)
 - Battery percentage
 - Thunderbolt
-  * Tested with a CalDigit TS3 Plus, hotplug is working to some extent
-    * PCIe Ethernet sometimes causes kernel panics
-    * The DisplayPort out has major performance issues (cursor updates at about 11fps)
+  * Tested with a CalDigit TS3 Plus, hotplug is working.
+    * The PCIe Ethernet NIC on the dock causes system instability when a Ethernet cable is plugged in, disable the NIC by putting `dk.e1000=0 e1000=0` into your boot-args.
+    * The DisplayPort out has major performance issues (cursor updates at about 11fps). For some reason plugging in a USB-C to HDMI Adapter into a Thunderbolt port on the dock works fine. Possibly a firmware issue with the Thunderbolt controller?
 - Closing and Waking the Internal Display
 
 
