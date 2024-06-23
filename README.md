@@ -8,7 +8,8 @@ Specs:
 - **RAM** : 16GB dual-channel 2667MHz DDR4
 - **GPU** : Intel UHD Graphics 630
 - **dGPU** : NVIDIA Quadro P520 Max-Q 4GB
-- **Storage** : ADATA SX8100NP 512GB NVME SSD
+- **Storage** : SAMSUNG 980 PRO SSD 2TB
+  - **Tripple Boot** : ( NixOS |   macOS   | Windows )
 - **Screen** : 14" 1920x1080 Touchscreen
 - **WiFi** : Intel® Wi-Fi 6 AX201
 - **Soundcard** : Realtek ALC285
@@ -19,7 +20,7 @@ Specs:
 - CPU power management
 - GPU acceleration and video codecs
 - SSD (SATA/NVME)
-- Wi-Fi (itlwm)
+- Wi-Fi (AirportItlwm.kext)
 - All USB ports
 - USB-C Video
 - Touchscreen (with gestures)
@@ -33,7 +34,7 @@ Specs:
   * Tested with a CalDigit TS3 Plus, hotplug is working.
     * The PCIe Ethernet NIC on the dock causes system instability when a Ethernet cable is plugged in, disable the NIC by putting `dk.e1000=0 e1000=0` into your boot-args.
     * The DisplayPort out has major performance issues (cursor updates at about 11fps). For some reason plugging in a USB-C to HDMI Adapter into a Thunderbolt port on the dock works fine. Possibly a firmware issue with the Thunderbolt controller?
-- Closing and Waking the Internal Display
+- Closing and Waking the Internal Display (when sleep is disabled)
 
 
 #### Untested
