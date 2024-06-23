@@ -41,8 +41,8 @@ Specs:
 - Bluetooth (no kext installed yet)
 
 #### Not working
-- Sleep (will never work, no S3 support)
-  * Disable Sleep with `sudo pmset -a disablesleep 1` otherwise the system will freeze when closing the lid
+- Sleep (Works if laptop is left idle and Power Nap is on, closing lid will induce a crash, under investigation)
+  * Recommended to disable Sleep with `sudo pmset -a disablesleep 1` otherwise the system will freeze when closing the lid
 - Facial Recognition IR Camera
 - Fingerprint Sensor
 - NFC
