@@ -4,15 +4,15 @@
 Specs:
 ---
 
-- **CPU** : Intel® Core™ i7-10610U @ 4.90 GHz
-- **RAM** : 16GB dual-channel 2667MHz DDR4
-- **GPU** : Intel UHD Graphics 630
-- **dGPU** : NVIDIA Quadro P520 Max-Q 4GB
-- **Storage** : SAMSUNG 980 PRO SSD 2TB
-  - **Tripple Boot** : ( NixOS |   macOS   | Windows )
-- **Screen** : 14" 1920x1080 Touchscreen
-- **WiFi** : Intel® Wi-Fi 6 AX201
-- **Soundcard** : Realtek ALC285
+- **CPU**: Intel® Core™ i7-10610U @ 4.90 GHz
+- **RAM**: 16GB dual-channel 2667MHz DDR4
+- **GPU**: Intel UHD Graphics 630
+- **dGPU**: NVIDIA Quadro P520 Max-Q 4GB
+- **Storage**: SAMSUNG 980 PRO SSD 2TB
+  - **Tripple Boot**: ( NixOS |   macOS   | Windows )
+- **Screen**: 14" 1920x1080 Touchscreen
+- **WiFi**: Intel® Wi-Fi 6 AX201
+- **Soundcard**: Realtek ALC285
 
 ## Hardware compatibility
 
