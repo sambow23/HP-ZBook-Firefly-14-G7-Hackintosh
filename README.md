@@ -49,7 +49,7 @@ Specs:
 - Smartcard
 - Internal Microphone
 - HDMI Out
-  * Unsure why, the USB-C video outs work fine
+  * Does not work under Linux/macOS because of HP Firmware issues.
 - dGPU (disabled)
 
 ## Tested/Working macOS Versions
