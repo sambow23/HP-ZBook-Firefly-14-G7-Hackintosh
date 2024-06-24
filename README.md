@@ -13,6 +13,7 @@ Specs:
 - **Screen**: 14" 1920x1080 Touchscreen
 - **WiFi**: Intel® Wi-Fi 6 AX201
 - **Soundcard**: Realtek ALC285
+- **Bootloader**: Uses [Super-UEFIinSecureBoot-Disk](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk) to bypass Secure Boot as this laptop has a BIOS password that cannot be removed
 
 ## Hardware compatibility
 
