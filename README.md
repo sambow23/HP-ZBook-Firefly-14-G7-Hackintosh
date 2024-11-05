@@ -1,19 +1,17 @@
 # HP ZBook Firefly 14 G7
 <img src="https://i.imgur.com/c63OLOQ.png" width="500">
 
-Specs:
----
-
-- **CPU**: Intel® Core™ i7-10610U @ 4.90 GHz
-- **RAM**: 16GB dual-channel 2667MHz DDR4
-- **GPU**: Intel UHD Graphics 630
-- **dGPU**: NVIDIA Quadro P520 Max-Q 4GB
-- **Storage**: SAMSUNG 980 PRO SSD 2TB
-  - **Tripple Boot**: ( NixOS |   macOS   | Windows )
-- **Screen**: 14" 1920x1080 Touchscreen
-- **WiFi**: Intel® Wi-Fi 6 AX201
-- **Soundcard**: Realtek ALC285
-- **Bootloader**: Uses [Super-UEFIinSecureBoot-Disk](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk) to bypass Secure Boot as this laptop has a BIOS password that cannot be removed
+| Hardware  | |
+| ------------- | ------------- |
+| CPU  | Intel® Core™ i7-10610U |
+| RAM  | 16GB DDR4 (Soldered) |
+| GPU  | Intel UHD Graphics 630  |
+| dGPU  | NVIDIA Quadro P520 Max-Q 4GB  |
+| Network  | Intel® Wi-Fi 6 AX201 |
+| Storage  | SAMSUNG 980 PRO SSD 2TB |
+| OS  | NixOS, macOS Sequoia 15.1, Windows 11 24H2 LTSC |
+| Screen  | 14" 1920x1080 Touchscreen |
+| Bootloader | Uses [Super-UEFIinSecureBoot-Disk](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk) 
 
 ## Hardware compatibility
 
@@ -24,7 +22,7 @@ Specs:
 - Wi-Fi (AirportItlwm.kext)
 - All USB ports
 - USB-C Video
-- Touchscreen (with gestures)
+- Touchscreen
 - Trackpad
 - FN Keys
 - Webcam
@@ -32,26 +30,21 @@ Specs:
 - Internal Audio (Speakers, Headphones)
 - Battery percentage
 - Thunderbolt
-  * Tested with a CalDigit TS3 Plus, hotplug is working.
-    * The PCIe Ethernet NIC on the dock causes system instability when a Ethernet cable is plugged in, disable the NIC by putting `dk.e1000=0 e1000=0` into your boot-args.
-    * The DisplayPort out has major performance issues (cursor updates at about 11fps). For some reason plugging in a USB-C to HDMI Adapter into a Thunderbolt port on the dock works fine. Possibly a firmware issue with the Thunderbolt controller?
-- Closing and Waking the Internal Display (when sleep is disabled)
-
+- Sleep
+  - Uses Deep Idle instead of S3, blame HP not me :)
 
 #### Untested
 - iCloud Services
-- Bluetooth (no kext installed yet)
+- Bluetooth (no kext installed)
 
 #### Not working
-- Sleep (Works if laptop is left idle and Power Nap is on, closing lid will induce a crash, under investigation)
-  * Recommended to disable Sleep with `sudo pmset -a disablesleep 1` otherwise the system will freeze when closing the lid
 - Facial Recognition IR Camera
 - Fingerprint Sensor
 - NFC
 - Smartcard
 - Internal Microphone
 - HDMI Out
-  * Does not work under Linux/macOS because of HP Firmware issues.
+  * Does not work due to missing HDMI functionality in the ICL driver.
 - dGPU (disabled)
 
 ## Tested/Working macOS Versions
